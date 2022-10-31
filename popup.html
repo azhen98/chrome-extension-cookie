@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+   
+</head>
+<style>
+    .mt {
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <form id="control-row">
+        <label for="input">Domain:</label>
+        <input type="text" id="input">
+        <br>
+
+        <label for="input">Key:</label>
+        <input type="text" id="input-key">
+        <br>
+        <button class="mt" id="go" style="color: red;">Clear Cookies</button>
+    </form>
+    <button id="get-cookie" class="mt">GET localToken</button>
+
+    <br>
+    <span id="message" hidden></span>
+
+    <script src="popup.js" type="module"></script>
+</body>
+
+</html>
